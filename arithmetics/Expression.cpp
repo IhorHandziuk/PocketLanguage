@@ -108,7 +108,8 @@ int Expression::calculate(string postfixNotation) {
                     result = static_cast<int>(pow(tempOperandLeft, tempOperandRight));
                     break;
                 }
-                default:break;
+                default:
+                    break;
             }
             calculateStack.push(result);
         }
